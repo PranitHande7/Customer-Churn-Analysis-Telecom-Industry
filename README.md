@@ -1,4 +1,4 @@
-# Customer-Churn-Analysis-Telecom-Industry
+# Customer Churn Analysis - Telecom Industry
 
 # Project Background
 
@@ -6,10 +6,10 @@ Customer churn is a critical issue in the telecom industry, where companies must
 
 The objective of this project is to:
 - Visualize & Analyze Customer Data at the following levels:
--- Demographic
--- Geographic
--- Payment & Account Information
--- Services Used
+  - Demographic
+  - Geographic
+  - Payment & Account Information
+  - Services Used
 - Study churner profiles & identify areas for implementing targeted marketing campaigns.
 - Identify a predictive model to forecast future churners.
 - Analyze churn trends based on contract types, tenure, and service bundles.
@@ -19,9 +19,9 @@ The objective of this project is to:
 # Data Structure and Overview
 The dataset comprises three key files:
 
--**Customer_Data.csv**: Contains customer demographics, service usage, and billing details.
--**Prediction_Data.xlsx**: Contains SQL views vw_ChurnData and vw_JoinData, created for Random Forest Classification.
--**Predictions.csv**: Output from the Random Forest model, predicting customers likely to churn. Later used as an input for **Churn Prediction** page of the dashboard.
+- **Customer_Data.csv**: Contains customer demographics, service usage, and billing details.
+- **Prediction_Data.xlsx**: Contains SQL views vw_ChurnData and vw_JoinData, created for Random Forest Classification.
+- **Predictions.csv**: Output from the Random Forest model, predicting customers likely to churn. Later used as an input for **Churn Prediction** page of the dashboard.
 
 # Data Processing Steps:
 
@@ -61,7 +61,9 @@ High Churn Segments:
 
   Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
 
-![Sales Performance Dashboard](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.png)
+![Dashboard1](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.png)
+
+![Dashboard2](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.png)
 
 ## Overview of the Findings
 
@@ -98,19 +100,20 @@ High Churn Segments:
 
  ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
 
-## **5. Churn by Internet Type
+## **5. Churn by Internet Type**
 - Fiber Optic users have the highest churn rate (41.10%), followed by Cable (25.72%) and DSL (19.37%) users.
 - Customers without an internet plan show the lowest churn rate (7.84%), likely because they are less engaged with the service.
 
   ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
 
- ## **6. Churn by Services Used
+ ## **6. Churn by Services Used**
 - Customers without value-added services are more likely to churn.
 - 94% of churners had internet service, but many lacked additional services like Online Security and Backup.
 - Paperless billing users (75%) show higher retention, suggesting a correlation between digital engagement and loyalty.
 - Phone service (91% retention) and Unlimited Data (80% retention) reduce churn, indicating that bundled essential services improve customer stickiness.
 
   ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+
 
 ## Churn Analysis - Prediction (Page 2)
 
