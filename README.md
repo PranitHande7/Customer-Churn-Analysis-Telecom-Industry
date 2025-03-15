@@ -40,6 +40,7 @@ The dataset comprises three key files:
 - Trained a Random Forest model with an accuracy of 84%.
 - Used the model to predict potential churners and saved results in Predictions.csv.
 
+The python code for the random forest classification can be found [here](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/ChurnPrediction.ipynb)
 # Executive Summary
 ## Key Findings:
 Overall Churn Rate: 26.99%, indicating significant customer losses.
