@@ -62,9 +62,9 @@ High Churn Segments:
 
   Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
 
-![Dashboard1](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.png)
+![Dashboard1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/ChurnAnalysisPage1.png)
 
-![Dashboard2](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.png)
+![Dashboard2](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/ChurnAnalysisPage2.png)
 
 ## Overview of the Findings
 
@@ -75,20 +75,20 @@ High Churn Segments:
 - Older customers (>50 years) have the highest churn rate (31.04%), followed by the 35-50 age group (24.02%).
 - Younger customers (<20) show minimal churn, possibly due to fewer subscribers in this segment.
 
- ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+ ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/1.png)
 
 ## **2. Churn by Contract & Payment Method**
 - Month-to-month contracts have the highest churn (46.53%).
 - Customers using Mailed Checks (37.82%) and Bank Transfers (34.43%) are more likely to churn.
 - Customers on long-term contracts (One-Year, Two-Year) show significantly lower churn rates.
 
- ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+ ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/2.png)
  
 ## **3. Tenure-Based Churn**
 - Customers with tenure over 24 months have the highest churn rate (27.50%), followed closely by 18-24 months (27.24%) and 6-12 months (27.16%).
 - Short-tenure customers (<6 months) also exhibit high churn (26.37%), indicating early dissatisfaction.
 
- ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+ ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/3.png)
 
 ## **4. Churn by Location(Top 5 States) and Churn Category**
 - Jammu has the highest churn rate (57.19%), followed by Assam (38.13%) and Jharkhand (34.51%). High churn in these regions suggests service quality issues, competitive pricing, or lack of customer engagement.
@@ -96,16 +96,18 @@ High Churn Segments:
 - Customer attitude and dissatisfaction (601 combined cases) highlight gaps in service quality or customer experience.
 - Price sensitivity (196 cases) suggests cost-effective alternatives may help improve retention.
 
+ ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/4.png)
+
 > [!NOTE]
 > Hovering over the bars of the Churn categories gives a tooltip which gives detailed information of the reason the customers churned and the total number of customers for that specific reason.
 
- ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+ ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/ChurnReason.png)
 
 ## **5. Churn by Internet Type**
 - Fiber Optic users have the highest churn rate (41.10%), followed by Cable (25.72%) and DSL (19.37%) users.
 - Customers without an internet plan show the lowest churn rate (7.84%), likely because they are less engaged with the service.
 
-  ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+  ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/5.png)
 
  ## **6. Churn by Services Used**
 - Customers without value-added services are more likely to churn.
@@ -113,7 +115,7 @@ High Churn Segments:
 - Paperless billing users (75%) show higher retention, suggesting a correlation between digital engagement and loyalty.
 - Phone service (91% retention) and Unlimited Data (80% retention) reduce churn, indicating that bundled essential services improve customer stickiness.
 
-  ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+  ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/6.png)
 
 
 ## Churn Analysis - Prediction (Page 2)
@@ -124,7 +126,7 @@ High Churn Segments:
 - Young customers (<20) have the lowest churn prediction (12), likely due to prepaid or family plans.
 - Married and non-married customers show nearly equal churn risk (191 vs. 184), indicating that marital status does not significantly impact churn behavior.
 
-  ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+  ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/ChurnPrediction1.png)
 
 ## **2.  Tenure & Contract-Based Churn Prediction**
 - Customers with 24+ months tenure have the highest predicted churn (105).
@@ -133,21 +135,21 @@ High Churn Segments:
 - 358 predicted churners are on month-to-month contracts, reinforcing that flexible contracts lead to higher churn.
 - Only 17 churners belong to one-year or two-year contracts, confirming long-term contracts improve retention.
   
-  ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+  ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/ChurnPred2.png)
 
 ## **3. Geographic & Payment Method-Based Churn Prediction**
 - Uttar Pradesh (41), Maharashtra (39), and Tamil Nadu (37) have the highest predicted churners.
 - Credit card users (189) and bank withdrawal users (149) make up most predicted churners.
 - Mailed check users (37) are the least likely to churn, possibly due to fewer alternatives or preference for traditional payment methods.
 
-  ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+  ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/ChurnPred3.png)
 
 ## **Detailed Overview of the customer at risk table**
 - This table gives an overview of the various details of the potential churners like Customer_id, Monthly_Charge, Total_Revenue, Total_Refunds, Number of Referrals.
 - Some customers have higher monthly charges (e.g., $100+), making them high-priority for retention.
 - Minimal refunds recorded suggest dissatisfaction isn't driven by refund-related issues but possibly service quality or pricing.
 
-  ![image1](https://github.com/PranitHande7/Green-Planet-Co.-Sales-Performance-Analytics/blob/main/bottom10.png)
+  ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/ChurnPred4.png)
 
 # Recommendations
 - **Strengthen Customer Retention Among High-Risk Segments**
