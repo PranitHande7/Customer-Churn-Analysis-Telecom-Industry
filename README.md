@@ -302,7 +302,7 @@ INTO [db_Churn].[dbo].[prod_Churn]
 FROM [db_Churn].[dbo].[stg_Churn];
 ```
 
-### **4 .Create View for Power BI**
+### **4. Create View for Power BI**
 ```SQL
 Create View vw_ChurnData as
 	select * from prod_Churn where Customer_Status In ('Churned', 'Stayed')
@@ -315,7 +315,7 @@ Create View vw_JoinData as
 
 ## DAX Measures
 
-### ** 1. Summary Page 1 - Measures**
+### **1. Summary Page 1 - Measures**
 ```DAX
 Total Customers = Count(prod_Churn[Customer_ID])
 
@@ -327,7 +327,7 @@ Churn Rate = [Total Churn] / [Total Customers]
 
 ```
 
-### 2. Churn Prediction Page 2 - Measures**
+### **2. Churn Prediction Page 2 - Measures**
 ```DAX
 Count Predicted Churner = COUNT(Predictions[Customer_ID]) + 0
 
