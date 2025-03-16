@@ -23,7 +23,7 @@ The dataset comprises three key files:
 - **Prediction_Data.xlsx**: Contains SQL views vw_ChurnData and vw_JoinData, created for Random Forest Classification.
 - **Predictions.csv**: Output from the Random Forest model, predicting customers likely to churn. Later used as an input for **Churn Prediction** page of the dashboard.
 
- ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/DataModel.png)
+ ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/DataModel.png)
 
 # Data Processing Steps:
 
@@ -192,6 +192,28 @@ The python code for the random forest classification can be found [here](https:/
 ---
 
 # Glossary
+
+# Model Performance Overview
+```
+Classification Report:
+	              precision    recall   f1-score   support
+
+Non Churners   0       0.86         0.93      0.89      1258
+Churners       1       0.80         0.64      0.71       545
+
+      accuracy                                0.84      1803
+     macro avg         0.83         0.79      0.80      1803
+  weighted avg         0.84         0.84      0.84      1803
+
+```
+- The model achieved 84% accuracy, meaning it correctly identified churn and non-churn cases 84% of the time.
+- Model acheived 86% precision for non-churners - when the model predicts a customer will stay, it is correct 86% of the time.
+- For churners 80% precision – some false positives exist, but the model remains reliable.
+- Non-churners: 93% recall indicating most non-churners were correctly identified.
+- Churners: 64% recall means some at-risk churners were misclassified.
+- The model is effective at predicting customers who will stay, but some churners are missed (false negatives), impacting retention strategies.
+- The model can be refined further by optimizing features, adjusting thresholds, and balancing class weights.
+
 ## SQL Queries
 
 ### **1. Check Distinct Values**
