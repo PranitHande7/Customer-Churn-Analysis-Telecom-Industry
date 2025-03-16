@@ -23,6 +23,8 @@ The dataset comprises three key files:
 - **Prediction_Data.xlsx**: Contains SQL views vw_ChurnData and vw_JoinData, created for Random Forest Classification.
 - **Predictions.csv**: Output from the Random Forest model, predicting customers likely to churn. Later used as an input for **Churn Prediction** page of the dashboard.
 
+ ![image1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/DataModel.png)
+
 # Data Processing Steps:
 
 ## SQL Queries (SSMS):
@@ -43,8 +45,7 @@ The dataset comprises three key files:
 The python code for the random forest classification can be found [here](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/ChurnPrediction.ipynb)
 # Executive Summary
 ## Key Findings:
-Overall Churn Rate: 26.99%, indicating significant customer losses.
-High Churn Segments:
+- Overall Churn Rate: 26.99%, indicating significant customer losses.
 - **Demographics**: Females (64.15%) churn more than Males (35.85%).
 - **Age Group**: Customers aged >50 have the highest churn rate (31.04%).
 - **Tenure**: Short-term customers (<6 months) churn at 26.37%, highlighting early dissatisfaction.
@@ -60,7 +61,7 @@ High Churn Segments:
 - Top states with highest predicted churn: Uttar Pradesh, Maharashtra, and Tamil Nadu.
 - Most at-risk customers have high monthly charges but few additional services.
 
-  Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire dashboard can be viewed [here](https://github.com/PranitHande7/Green-Planet-Co.---Sales-Performance-Analytics/blob/main/PerformReport.pbix).
+  Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The entire dashboard can be viewed [here](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/ChurnAnalysis.pbix).
 
 ![Dashboard1](https://github.com/PranitHande7/Customer-Churn-Analysis-Telecom-Industry/blob/main/Images/ChurnAnalysisPage1.png)
 
@@ -191,3 +192,12 @@ High Churn Segments:
 ---
 
 # Glossary
+## SQL Queries
+
+### **1. Check Distinct Values**
+```SQL
+SELECT Gender, Count(Gender) as TotalCount,
+Count(Gender) * 1.0 / (Select Count(*) from stg_Churn)  as Percentage
+from stg_Churn
+Group by Gender
+```
